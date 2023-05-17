@@ -40,18 +40,18 @@ const Login = () => {
                   <LabelArea label="Email" />
                   <InputArea
                     register={register}
-                    defaultValue="admin@gmail.com"
+                    defaultValue="tranhongtri@gmail.com"
                     label="Email"
                     name="email"
                     type="email"
-                    placeholder="john@doe.com"
+                    placeholder="youremail@gmail.com"
                   />
                   <Error errorName={errors.email} />
                   <div className="mt-6"></div>
                   <LabelArea label="Password" />
                   <InputArea
                     register={register}
-                    defaultValue="1234567123"
+                    defaultValue="danhdanh"
                     label="Password"
                     name="password"
                     type="password"
